@@ -92,7 +92,7 @@
     text-transform: uppercase;
     font-weight: 400;
     color: var(--text-color);
-    letter-spacing: -0.4px;
+    letter-spacing: 2px;
     border: 2px dashed #333;
 }
 
@@ -107,8 +107,8 @@
 }
 
 .header-bottom__content h1 {
-    font-size: 114px;
-    line-height: 114px;
+    font-size: 113px;
+    line-height: 113px;
 }
 
 .header-bottom__content h2 {
@@ -124,12 +124,13 @@
 .header-bottom__price {
     position: absolute;
     left: 108px;
-    bottom: 20px;
+    bottom: 0;
     width: 175px;
     height: 175px;
     background-color: #bf2222;
     border-radius: 100%;
     padding: 10px;
+    z-index: 20;
 }
 
 .header-bottom__price-content {
@@ -161,4 +162,39 @@
 .header-bottom__price-content-only {
     text-transform: uppercase;
     letter-spacing: 11px;
+}
+
+.header-bottom__images-sticky {
+    position: absolute;
+    bottom: 133px;
+    left: 92px;
+    z-index: 1;
+}
+
+.header-bottom__images-burger {
+    position: absolute;
+    bottom: 43px;
+    left: 223px;
+    z-index: 5;
+}
+
+.header-bottom__images-drink {
+    position: absolute;
+    bottom: 58px;
+    left: 546px;
+    z-index: 1;
+}
+
+.header-bottom__images-shadow1 {
+    position: absolute;
+    bottom: 5px;
+    left: 230px;
+    z-index: 5;
+}
+
+.header-bottom__images-shadow2 {
+    position: absolute;
+    bottom: 25px;
+    left: 450px;
+    z-index: 999;
 }
