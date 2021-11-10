@@ -70,6 +70,11 @@
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 4px;
+    transition: 0.3s ease-out;
+}
+
+.header-top__menu li a:hover {
+    color: #fff;
 }
 
 
@@ -197,4 +202,279 @@
     bottom: 25px;
     left: 450px;
     z-index: 999;
+}
+
+
+/*--banner--*/
+
+.banner {
+    padding: 78px 96px 69px 108px;
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 35px 40px;
+    grid-template-rows: 192px 192px;
+}
+
+.banner__single-item:first-child {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.banner__single-item:nth-child(2) {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.banner__single-item:last-child {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+
+/*--products-*/
+
+.products {
+    background: #ffffff;
+}
+
+.products__desc {
+    text-align: center;
+    padding: 0px 190px;
+}
+
+.products__desc h4 {
+    display: inline-block;
+    padding: 1.5rem 2rem;
+    background: #ffc045;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'BebasNeu';
+    color: var(--text-color);
+}
+
+.products__desc h2 {
+    margin-top: 38px;
+    margin-bottom: 30px;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-family: 'AlfaSlabOne';
+    color: var(--text-color);
+    line-height: 5rem;
+    font-weight: 100;
+}
+
+.products__desc p {
+    font-size: 1.6rem;
+    text-transform: initial;
+    font-family: 'Montserrat';
+    color: var(--text-color);
+    line-height: 2.2rem;
+    font-weight: 400;
+}
+
+.products__list {
+    margin-top: 6.8rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.products__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2.5rem;
+    width: calc(100% / 3);
+    text-align: center;
+}
+
+.products__item:first-child,
+.products__item:last-child {
+    padding-top: 35px;
+}
+
+.products__item img {
+    flex-shrink: 0;
+}
+
+.products__item .shadow {
+    position: absolute;
+    bottom: 39%;
+    left: 90px;
+}
+
+.products__item-content {
+    margin-top: auto;
+    text-align: center;
+    padding: 0 20px;
+    padding-top: 20px;
+}
+
+.products__item-content h4 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 3.7rem;
+    text-transform: uppercase;
+    font-family: 'BebasNeu';
+    color: var(--text-color);
+    line-height: 3.7rem;
+}
+
+.products__item-content p {
+    font-size: 1.6rem;
+    text-transform: initial;
+    font-family: 'Montserrat';
+    color: var(--text-color);
+    line-height: 2.2rem;
+    font-weight: 400;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    background: #bf2222;
+    text-align: center;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #3d2514;
+}
+
+.order-btn {
+    margin-top: 35px;
+    font-family: 'AlfaSlabOne';
+    min-width: 195px;
+    padding: 20px 35px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+/*--discovery--*/
+
+.discovery {
+    display: flex;
+    margin-top: 12.5rem;
+    background: #ffffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-left: 78px;
+    margin-right: 68px;
+    padding: 25px 25px 25px 55px;
+}
+
+.discovery__content {
+    padding-right: 44px;
+}
+
+.discovery__content>span {
+    display: inline-block;
+    margin-top: 3.5rem;
+    text-transform: uppercase;
+    font-size: 2.9rem;
+    font-family: 'BebasNeu';
+    color: var(--text-color);
+}
+
+.discovery__content h2 {
+    margin-top: 1rem;
+    text-transform: uppercase;
+    font-size: 4.1rem;
+    font-family: 'AlfaSlabOne';
+    color: var(--text-color);
+    font-weight: 100;
+    line-height: 4.1rem;
+}
+
+.discovery__content p {
+    margin-top: 4.5rem;
+    text-transform: initial;
+    font-size: 2rem;
+    font-family: 'Montserrat';
+    color: var(--text-color);
+    font-weight: 400;
+}
+
+.discovery__content .dots {
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.discovery__content .dots .dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background: #dcdcdc;
+    margin-right: 8px;
+}
+
+.discovery__content .dots .dot:first-child {
+    background: #ffc045;
+}
+
+
+/*--booking table--*/
+
+.booking-table {
+    padding: 130px 328px 178px 328px;
+    text-align: center;
+}
+
+.booking-table span {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 2.9rem;
+    font-family: 'BebasNeu';
+    color: var(--text-color);
+}
+
+.booking-table h2 {
+    margin-top: 2.5rem;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-family: 'AlfaSlabOne';
+    color: var(--text-color);
+    font-weight: 100;
+    line-height: 5rem;
+}
+
+.booking-form {
+    margin-top: 90px;
+}
+
+.booking-form__group {
+    margin-left: -25px;
+    margin-right: -25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.booking-form__group input {
+    width: 377px;
+    height: 63px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #bebebe;
+    border-radius: 3px;
+    padding: 25px 22px;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'BebasNeu';
+    text-transform: initial;
+}
+
+.booking-form__group .find-table-btn {
+    width: 377px;
+    height: 62px;
+    border-radius: 3px;
+    font-size: 2.1rem;
+    color: #ffffff;
+    font-family: 'AlfaSlabOne';
+    text-transform: uppercase;
 }
