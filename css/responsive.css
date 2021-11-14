@@ -10,6 +10,10 @@
     html {
         font-size: 55%;
     }
+    section {
+        font-size: 55%;
+    }
+    /*-header-*/
     .header-top {
         flex-direction: column;
     }
@@ -76,7 +80,7 @@
     .header-bottom__images img {
         width: 30vw;
     }
-    .header-bottom__images-burger {
+    .header-bottom__images-burger img {
         width: 35vh;
     }
     .header-bottom__images-drink {
@@ -91,12 +95,49 @@
     .header-bottom__images-shadow2 {
         left: 35rem;
     }
+    /*-header-*/
+    /*-banner-*/
+    .banner {
+        padding: 3.8rem 3rem 3.8rem 3rem;
+        grid-gap: 2.5rem 3rem;
+    }
+    /*--products--*/
+    .products {
+        margin-top: 3rem;
+    }
+    .products__item img {
+        width: 100%;
+        height: auto;
+    }
+    .products__desc h4 {
+        padding: 1.3rem 1.8rem;
+        font-size: 2.2rem;
+    }
+    .products__desc h2 {
+        font-size: 4.5rem;
+    }
+    .products__item-content h4 {
+        margin-top: 2.5rem;
+        margin-bottom: 1.5rem;
+        font-size: 3.4rem;
+        line-height: 3.4rem;
+    }
+    .order-btn {
+        margin-top: 3rem;
+        padding: 1.5rem 3rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .products__item .shadow {
+        left: 10%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
     html {
         font-size: 55%;
     }
+    /*-header-*/
     #header {
         padding: 50px 50px 50px 50px;
     }
@@ -146,5 +187,113 @@
     }
     .header-bottom__images-drink img {
         width: 20vw;
+    }
+    /*-header-*/
+    /*banner*/
+    .banner {
+        padding: 3.8rem 3rem 3.8rem 3rem;
+        grid-gap: 1.8rem 3rem;
+    }
+    /*--products--*/
+    .products__desc {
+        text-align: center;
+        padding: 0rem 9rem;
+    }
+    .products__desc h2 {
+        margin-top: 3rem;
+        margin-bottom: 2.5rem;
+        font-size: 4rem;
+    }
+    .products__item .shadow {
+        bottom: 49%;
+        left: 7%;
+    }
+    .products__item-content h4 {
+        margin-top: 2.5rem;
+        margin-bottom: 1.5rem;
+        font-size: 2.4rem;
+        line-height: 2.4rem;
+    }
+    .order-btn {
+        margin-top: 2.8rem;
+        padding: 1.3rem 2rem;
+        min-width: 16.5rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+    /*-header-*/
+    .header-bottom__images img {
+        width: 40vw;
+    }
+    .header-bottom__images-drink img {
+        width: 25vw;
+    }
+    .header-bottom__images-drink {
+        left: 231px;
+    }
+    .header-bottom__images-sticky {
+        left: 6.2rem;
+    }
+    .header-bottom__images-burger {
+        left: 16.3rem;
+    }
+    .header-bottom__images-shadow1 {
+        left: 19rem;
+    }
+    .header-bottom__images-shadow1 {
+        bottom: 1rem;
+    }
+    .header-bottom__images-shadow2 {
+        left: 26rem;
+    }
+    .header-bottom__images-shadow2 {
+        bottom: 3rem;
+    }
+    /*-header-*/
+    /*-banner-*/
+    .banner {
+        padding: 3rem 1rem 3rem 1rem;
+        grid-gap: 1rem 1rem;
+    }
+    /*-banner-*/
+    /*--products--*/
+    .products__desc {
+        padding: 0rem 2rem;
+    }
+    .products__desc h4 {
+        padding: 1rem 1.5rem;
+        font-size: 2rem;
+    }
+    .products__desc h2 {
+        margin-top: 2.5rem;
+        margin-bottom: 2rem;
+        font-size: 3rem;
+    }
+    .products__item {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .products__item img {
+        width: 75%;
+    }
+    .products__item .shadow {
+        bottom: 30%;
+        left: 14%;
+    }
+    .products__item-content h4 {
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .order-btn {
+        margin-top: 2rem;
+        padding: 1.3rem 2.7rem;
+        font-size: 1.3rem;
+        font-weight: 500;
     }
 }
