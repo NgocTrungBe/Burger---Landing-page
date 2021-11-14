@@ -131,6 +131,35 @@
     .products__item .shadow {
         left: 10%;
     }
+    /*--discovery--*/
+    .discovery {
+        flex-wrap: wrap;
+        margin-top: 10.5rem;
+        margin-left: 6.8rem;
+        margin-right: 5.8rem;
+        padding: 2rem;
+    }
+    .discovery__image {
+        width: 50%;
+    }
+    .discovery__image img {
+        width: 100%;
+    }
+    .discovery__content>span {
+        margin-top: 3.5rem;
+        font-size: 2.5rem;
+    }
+    .discovery__content h2 {
+        font-size: 3.1rem;
+        line-height: 3.1rem;
+    }
+    .discovery__content p {
+        margin-top: 4rem;
+        font-size: 1.8rem;
+    }
+    .discovery__content .dots {
+        margin-top: 6rem;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -219,6 +248,40 @@
         padding: 1.3rem 2rem;
         min-width: 16.5rem;
     }
+    /*--discovery--*/
+    .discovery {
+        position: relative;
+    }
+    .discovery__content {
+        width: 100%;
+    }
+    .discovery__content h2 {
+        font-size: 2.9rem;
+        line-height: 2.9rem;
+    }
+    .discovery__content p {
+        margin-top: 3.5rem;
+        font-size: 1.6rem;
+    }
+    .discovery__content>span {
+        margin-top: 3rem;
+        font-size: 2.2rem;
+    }
+    .discovery__image {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+    .discovery__content .dots {
+        position: absolute;
+        bottom: 2rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .discovery__content .dots .dot {
+        width: 14px;
+        height: 14px;
+    }
 }
 
 @media only screen and (max-width: 450px) {
@@ -295,5 +358,18 @@
         padding: 1.3rem 2.7rem;
         font-size: 1.3rem;
         font-weight: 500;
+    }
+    /*--discovery--*/
+    .discovery__content h2 {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    .discovery__content p {
+        margin-top: 3.5rem;
+        font-size: 1.4rem;
+    }
+    .discovery__content>span {
+        margin-top: 3rem;
+        font-size: 2rem;
     }
 }
