@@ -190,6 +190,11 @@
     letter-spacing: 1.1rem;
 }
 
+.header-bottom__images img {
+    width: 100%;
+    height: auto;
+}
+
 .header-bottom__images-sticky {
     position: absolute;
     bottom: 13.3rem;
@@ -538,6 +543,7 @@
     background-size: cover;
     height: 525px;
     display: flex;
+    padding-bottom: 20px;
 }
 
 .footer__left {
@@ -545,6 +551,8 @@
     padding-right: 105px;
     padding-top: 83px;
     padding-left: 43px;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer__logo a {
@@ -559,7 +567,7 @@
 }
 
 .footer__desc {
-    margin-top: 45px;
+    margin-top: auto;
     color: #fff;
     font-family: 'Montserrat';
     font-size: 1.6rem;
@@ -576,6 +584,8 @@
 
 .footer__right {
     width: 50%;
+    display: flex;
+    flex-direction: column;
     padding-left: 235px;
     padding-top: 235px;
 }
@@ -598,7 +608,7 @@
 }
 
 .footer__right ul {
-    margin-top: 139px;
+    margin-top: auto;
     margin-right: 30px;
 }
 

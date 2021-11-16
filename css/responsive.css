@@ -160,6 +160,64 @@
     .discovery__content .dots {
         margin-top: 6rem;
     }
+    /*--booking table--*/
+    .booking-table {
+        padding: 110px 228px 158px 228px;
+    }
+    .booking-table span {
+        font-size: 2.6rem;
+    }
+    .booking-table h2 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    .booking-form__group {
+        margin: 0;
+    }
+    .booking-form__group input {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 23;
+        padding: 18px 22px;
+        font-size: 1.8rem;
+    }
+    .booking-form__group .find-table-btn {
+        width: 100%;
+        font-size: 2rem;
+    }
+    .booking-image1 img,
+    .booking-image2 img,
+    .booking-image3 img {
+        width: 80%;
+    }
+    .booking-image1 {
+        left: -4.1rem;
+    }
+    .booking-image2 {
+        bottom: 18.9rem;
+        left: 12rem;
+    }
+    .booking-image3 {
+        right: -17.5rem;
+    }
+    /*--footer--*/
+    .footer__left {
+        padding-right: 20px;
+        padding-top: 83px;
+        padding-left: 33px;
+    }
+    .footer__right {
+        padding-left: 65px;
+        padding-top: 235px;
+    }
+    .footer__right-location,
+    .footer__right-mail {
+        font-size: 2rem;
+    }
+    .footer__desc {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -282,6 +340,93 @@
         width: 14px;
         height: 14px;
     }
+    /*--booking table--*/
+    /*--booking table--*/
+    .booking-table {
+        padding: 60px 198px 128px 198px;
+    }
+    .booking-table span {
+        font-size: 2.4rem;
+    }
+    .booking-table h2 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .booking-form__group {
+        margin: 0;
+    }
+    .booking-form__group input {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20;
+        padding: 15px 29px;
+        font-size: 1.5rem;
+    }
+    .booking-form {
+        margin-top: 60px;
+    }
+    .booking-form__group .find-table-btn {
+        width: 100%;
+        font-size: 1.7rem;
+    }
+    .booking-image1 img,
+    .booking-image2 img,
+    .booking-image3 img {
+        width: 60%;
+    }
+    .booking-image1 {
+        left: -6.1rem;
+    }
+    .booking-image2 {
+        bottom: 16.9rem;
+        left: 13rem;
+    }
+    .booking-image3 {
+        right: -17.5rem;
+    }
+    /*--footer--*/
+    #footer {
+        padding: 0 45px 55px 45px;
+    }
+    .footer__content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__left,
+    .footer__right {
+        width: 100%;
+    }
+    .footer__right {
+        padding-left: 33px;
+        padding-top: 30px;
+    }
+    .footer__copyright {
+        position: absolute;
+        bottom: 20px;
+        left: 33px;
+    }
+    .footer__desc {
+        margin-top: 20px;
+    }
+    .footer__right ul {
+        margin-top: 15px;
+    }
+    .footer__right ul li {
+        float: left;
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    .footer__right-location,
+    .footer__right-mail {
+        font-size: 1.8rem;
+    }
+    .footer__right ul li a {
+        font-size: 1.8rem;
+        width: 28px;
+        height: 28px;
+        line-height: 34px;
+    }
 }
 
 @media only screen and (max-width: 450px) {
@@ -371,5 +516,37 @@
     .discovery__content>span {
         margin-top: 3rem;
         font-size: 2rem;
+    }
+    /*--booking table--*/
+    .booking-table {
+        padding: 30px 20px 60px 20px;
+    }
+    .booking-image1 img,
+    .booking-image2 img,
+    .booking-image3 img {
+        display: none;
+    }
+    .booking-table span {
+        font-size: 2.1rem;
+    }
+    .booking-table h2 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .booking-form__group {
+        margin: 0;
+    }
+    .booking-form__group input {
+        height: 0;
+        padding: 25px 20px;
+        font-size: 1.7rem;
+    }
+    .booking-form {
+        margin-top: 30px;
+    }
+    .booking-form__group .find-table-btn {
+        width: 100%;
+        font-size: 1.6rem;
+        height: 52px;
     }
 }
