@@ -80,9 +80,6 @@
     .header-bottom__images img {
         width: 30vw;
     }
-    .header-bottom__images-burger img {
-        width: 35vh;
-    }
     .header-bottom__images-drink {
         left: 376px;
     }
@@ -434,6 +431,9 @@
         font-size: 50%;
     }
     /*-header-*/
+    .header-top .logo img {
+        width: 90%;
+    }
     .header-bottom__images img {
         width: 40vw;
     }
